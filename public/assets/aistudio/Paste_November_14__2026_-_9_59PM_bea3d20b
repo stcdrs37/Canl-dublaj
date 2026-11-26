@@ -1,0 +1,526 @@
+=== LiveDub Tanılama ve Hata Raporu ===
+Uygulama Sürümü: 1.0.0 (1)
+Android Sürümü: Android 16 (SDK 36)
+Cihaz Modeli: vivo V2434
+Anahtarsız Ayar Özeti: model=gemini-3.8-live-extended-thinking, apiKey=Var (53 krk), echoTr=false, dubVol=100%, duck=true, silenceDet=false(3s), autoReconnect=true, limitMin=60, debug=true
+
+--- Son Bağlantı Testi Sonuçları ---
+=== LiveDub Bağlantı Test Raporu ===
+Ayarlar: model=gemini-3.8-live-extended-thinking, apiKey=Var (53 krk), echoTr=false, dubVol=100%, duck=true, silenceDet=false(3s), autoReconnect=true, limitMin=60, debug=true
+1. İnternet Erişimi: [Başarılı] (324 ms)
+  Açıklama: generativelanguage.googleapis.com sunucusuna HTTPS erişimi doğrulandı (HTTP 404).
+2. API Anahtarı Geçerliliği: [Başarılı] (513 ms)
+  Açıklama: API anahtarı doğrulandı (HTTP 200).
+3. Seçili Model Kontrolü: [Başarılı] (202 ms)
+  Açıklama: Model 'gemini-3.5-live-translate-preview' erişilebilir ve canlı akışı destekliyor.
+4. WebSocket El Sıkışma & Kurulum: [Başarılı] (1154 ms)
+  Açıklama: WebSocket el sıkışması ve setupComplete başarıyla alındı.
+5. Uçtan Uca 1 sn Ses Akış Testi: [Başarılı] (2652 ms)
+  Açıklama: 1 sn sentetik ses (16 kHz PCM, 10x100ms) gönderildi, bağlantı açık kaldı ve temiz kapatıldı.
+6. Alarm Ses Çıkışı Test Tonu: [Başarılı] (0 ms)
+  Açıklama: Alarm ses testi sihirbazın 5. adımında çalıştırılır.
+7. Kota / Hız Sınırı Sinyali: [Başarılı] (0 ms)
+  Açıklama: Herhangi bir 429 kota veya hız sınırı engeli algılanmadı.
+
+
+--- Son 500 Günlük Satırı ---
+21:53:58.077 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=275ms
+21:53:58.350 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=251ms
+21:53:58.671 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=248ms
+21:53:58.676 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:53:58.774 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=55ms
+21:53:59.021 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=219ms
+21:53:59.318 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=297ms
+21:53:59.823 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=424ms
+21:53:59.826 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:00.035 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=120ms
+21:54:00.289 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=183ms
+21:54:00.599 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=283ms
+21:54:00.829 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=212ms
+21:54:00.842 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:01.143 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=225ms
+21:54:01.272 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=60ms
+21:54:01.532 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=233ms
+21:54:02.140 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=519ms
+21:54:02.143 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:02.302 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=87ms
+21:54:02.551 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=247ms
+21:54:02.567 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:02.831 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=232ms
+21:54:03.340 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=439ms
+21:54:03.343 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:03.547 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=132ms
+21:54:03.790 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=187ms
+21:54:04.313 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=496ms
+21:54:04.318 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:04.604 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=185ms
+21:54:04.606 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:04.784 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=172ms
+21:54:05.046 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=227ms
+21:54:05.388 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=267ms
+21:54:05.534 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=113ms
+21:54:05.792 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=179ms
+21:54:06.044 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=239ms
+21:54:06.280 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=176ms
+21:54:06.498 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:06.541 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=229ms
+21:54:06.818 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=202ms
+21:54:07.034 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=125ms
+21:54:07.498 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=393ms
+21:54:07.549 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=40ms
+21:54:07.802 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=185ms
+21:54:08.033 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=229ms
+21:54:08.296 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=189ms
+21:54:08.558 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=235ms
+21:54:08.561 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:08.785 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=168ms
+21:54:09.043 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=231ms
+21:54:09.289 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=180ms
+21:54:09.538 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=240ms
+21:54:09.791 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=172ms
+21:54:10.043 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=230ms
+21:54:10.287 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=176ms
+21:54:10.752 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=447ms
+21:54:10.756 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:10.806 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:11.056 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=240ms
+21:54:11.296 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=180ms
+21:54:11.558 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=250ms
+21:54:11.857 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=254ms
+21:54:12.036 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=133ms
+21:54:12.291 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=176ms
+21:54:12.534 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=224ms
+21:54:12.554 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:12.788 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=182ms
+21:54:13.040 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=217ms
+21:54:13.285 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=163ms
+21:54:14.278 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=968ms
+21:54:14.282 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:14.285 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:14.313 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=10ms
+21:54:14.561 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=142ms
+21:54:14.790 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=178ms
+21:54:15.045 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=242ms
+21:54:15.360 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=256ms
+21:54:15.365 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:15.484 [#e946] I/TEST: Tüm bağlantı ve sistem testleri başlatıldı
+21:54:15.486 [#e946] I/TEST: Test #1 -> Çalışıyor (0ms) | Test çalışıyor...
+21:54:15.560 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=158ms
+21:54:15.788 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=171ms
+21:54:15.811 [#e946] I/TEST: Test #1 -> Başarılı (324ms) | generativelanguage.googleapis.com sunucusuna HTTPS erişimi doğrulandı (HTTP 404).
+21:54:15.813 [#e946] I/TEST: Test #2 -> Çalışıyor (0ms) | Test çalışıyor...
+21:54:16.252 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=445ms
+21:54:16.290 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:16.337 [#e946] I/TEST: Test #2 -> Başarılı (513ms) | API anahtarı doğrulandı (HTTP 200).
+21:54:16.340 [#e946] I/TEST: Test #3 -> Çalışıyor (0ms) | Test çalışıyor...
+21:54:16.426 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:16.538 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=219ms
+21:54:16.545 [#e946] I/TEST: Test #3 -> Başarılı (202ms) | Model 'gemini-3.5-live-translate-preview' erişilebilir ve canlı akışı destekliyor.
+21:54:16.546 [#e946] I/TEST: Test #4 -> Çalışıyor (0ms) | Test çalışıyor...
+21:54:16.800 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=181ms
+21:54:17.035 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=229ms
+21:54:17.436 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=330ms
+21:54:17.541 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=31ms
+21:54:17.702 [#e946] I/TEST: Test #4 -> Başarılı (1154ms) | WebSocket el sıkışması ve setupComplete başarıyla alındı.
+21:54:17.705 [#e946] I/TEST: Test #5 -> Çalışıyor (0ms) | Test çalışıyor...
+21:54:17.790 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=167ms
+21:54:18.047 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=233ms
+21:54:18.831 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=722ms
+21:54:18.839 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:18.843 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:18.858 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:19.056 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=143ms
+21:54:19.280 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=167ms
+21:54:19.561 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=259ms
+21:54:19.785 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=181ms
+21:54:20.067 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=248ms
+21:54:20.332 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=215ms
+21:54:20.359 [#e946] I/TEST: Test #5 -> Başarılı (2652ms) | 1 sn sentetik ses (16 kHz PCM, 10x100ms) gönderildi, bağlantı açık kaldı ve temiz kapatıldı.
+21:54:20.360 [#e946] I/TEST: Test #6 -> Başarılı (0ms) | Alarm ses testi sihirbazın 5. adımında çalıştırılır.
+21:54:20.361 [#e946] I/TEST: Test #7 -> Çalışıyor (0ms) | Test çalışıyor...
+21:54:20.362 [#e946] I/TEST: Test #7 -> Başarılı (0ms) | Herhangi bir 429 kota veya hız sınırı engeli algılanmadı.
+21:54:20.364 [#e946] I/TEST: Test paketi tamamlandı | başarılı=true
+21:54:21.924 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=1507ms
+21:54:21.927 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:21.932 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:21.953 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:22.145 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=128ms
+21:54:22.171 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:22.208 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=10ms
+21:54:22.376 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=62ms
+21:54:22.408 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:22.611 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=188ms
+21:54:23.102 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=486ms
+21:54:23.112 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=10ms
+21:54:23.244 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:23.295 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=87ms
+21:54:23.536 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=218ms
+21:54:24.153 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=539ms
+21:54:24.156 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:24.369 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=157ms
+21:54:24.531 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=124ms
+21:54:24.701 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:24.803 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=187ms
+21:54:25.062 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=254ms
+21:54:25.289 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=179ms
+21:54:25.531 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=229ms
+21:54:25.769 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=152ms
+21:54:26.297 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=485ms
+21:54:26.299 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:26.464 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:26.532 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=228ms
+21:54:26.777 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=177ms
+21:54:27.292 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=476ms
+21:54:27.297 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:27.544 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=237ms
+21:54:27.768 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=164ms
+21:54:29.175 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=1356ms
+21:54:29.212 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=10ms
+21:54:29.276 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:29.287 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:29.554 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=243ms
+21:54:29.560 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:29.562 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:29.783 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=174ms
+21:54:29.900 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:30.040 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=236ms
+21:54:30.274 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=174ms
+21:54:30.587 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=271ms
+21:54:30.766 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=151ms
+21:54:30.901 [#e946] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:31.003 [#e946] I/WIZ: Kurulum sihirbazı tamamlandı ve dublaj başlatılıyor
+21:54:31.576 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=772ms
+21:54:31.594 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:31.624 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=10ms
+21:54:31.768 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=69ms
+21:54:32.056 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=249ms
+21:54:33.497 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=1394ms
+21:54:33.500 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:33.503 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:33.519 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=10ms
+21:54:33.539 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:33.569 [#e946] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:33.792 [#c0c8] I/SVC: DubbingService.startForeground çağrıldı (oturum=#c0c8)
+21:54:33.798 [#c0c8] I/LIVE: Gemini Live oturumu durduruldu
+21:54:34.055 [#c0c8] I/AUDIO: Ses motoru güvenli şekilde kapatıldı
+21:54:34.072 [#c0c8] I/LIVE: Gemini Live oturumu başlatılıyor | model=gemini-3.5-live-translate-preview, echoTr=false
+21:54:34.131 [#c0c8] I/AUDIO: Ses motoru başlatıldı | giriş=48000Hz Stereo, çıkış=24000Hz Mono (USAGE_ALARM)
+21:54:34.244 [#c0c8] I/LIVE: WebSocket kapanıyor (main-4804) | kod=1000, neden=
+21:54:34.246 [#c0c8] D/LIVE: WebSocket kapandı (main-4804) | kod=1000, neden=
+21:54:34.256 [#c0c8] I/ROUTE: Orijinal sesi kısmadan önce 3 sn referans RMS ölçülüyor...
+21:54:34.379 [#c0c8] I/LIVE: WebSocket açıldı (main-4075), setup gönderiliyor | tier=0, bytes=248
+21:54:34.605 [#c0c8] I/LIVE: Kurulum tamamlandı (setupComplete), ses akışı başladı (main-4075)
+21:54:37.293 [#c0c8] I/ROUTE: STREAM_MUSIC kısıldı, 3 sn sonrası RMS doğrulanıyor | öncekiRms=0, eskiSes=4, yeniSes=2
+21:54:37.626 [#c0c8] I/USAGE: Ham usageMetadata örneği (#1/5) | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:37.665 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=4046ms
+21:54:37.684 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:37.895 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=140ms
+21:54:38.104 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=159ms
+21:54:38.419 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=281ms
+21:54:38.610 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=176ms
+21:54:38.855 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=204ms
+21:54:39.109 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=163ms
+21:54:40.015 [#c0c8] I/USAGE: Ham usageMetadata örneği (#2/5) | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:40.021 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=879ms
+21:54:40.040 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=10ms
+21:54:40.115 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:40.148 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=10ms
+21:54:40.333 [#c0c8] I/ROUTE: Orijinal ses kısma doğrulandı | preRms=0, postRms=0
+21:54:41.341 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=1091ms
+21:54:41.346 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:41.994 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=548ms
+21:54:42.009 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:42.015 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:42.033 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:42.072 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=33ms
+21:54:42.076 [#c0c8] I/USAGE: Ham usageMetadata örneği (#3/5) | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:42.129 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:42.373 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=225ms
+21:54:42.689 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=243ms
+21:54:42.857 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=114ms
+21:54:43.113 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=175ms
+21:54:43.364 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=216ms
+21:54:43.368 [#c0c8] I/USAGE: Ham usageMetadata örneği (#4/5) | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:43.631 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=180ms
+21:54:43.853 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=214ms
+21:54:44.146 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=204ms
+21:54:44.423 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=269ms
+21:54:44.634 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=181ms
+21:54:46.085 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=1439ms
+21:54:46.164 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=26ms
+21:54:46.267 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=20ms
+21:54:46.281 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:46.290 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:46.343 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:46.370 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=22ms
+21:54:46.618 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=181ms
+21:54:46.870 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=222ms
+21:54:46.875 [#c0c8] I/USAGE: Ham usageMetadata örneği (#5/5) | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:47.178 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=229ms
+21:54:47.402 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=157ms
+21:54:47.608 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=170ms
+21:54:47.612 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:47.869 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=219ms
+21:54:48.262 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=313ms
+21:54:48.376 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=39ms
+21:54:48.614 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=171ms
+21:54:48.882 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=252ms
+21:54:49.382 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=427ms
+21:54:49.385 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:49.392 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:49.711 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=269ms
+21:54:49.889 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=150ms
+21:54:50.147 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=213ms
+21:54:50.599 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=363ms
+21:54:50.678 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=40ms
+21:54:50.980 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=237ms
+21:54:51.132 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=85ms
+21:54:51.453 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=299ms
+21:54:51.455 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:51.617 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=81ms
+21:54:51.856 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=213ms
+21:54:52.108 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=170ms
+21:54:52.362 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=206ms
+21:54:52.611 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=162ms
+21:54:52.865 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=218ms
+21:54:53.117 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=175ms
+21:54:53.364 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=229ms
+21:54:53.477 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:53.925 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=490ms
+21:54:53.931 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:54.115 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=173ms
+21:54:54.376 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=240ms
+21:54:54.614 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=176ms
+21:54:54.882 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=233ms
+21:54:55.115 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=166ms
+21:54:55.287 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:55.365 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=227ms
+21:54:56.389 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=950ms
+21:54:56.434 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:56.518 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=75ms
+21:54:56.547 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:56.702 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=154ms
+21:54:57.101 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=359ms
+21:54:57.123 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:54:57.371 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=228ms
+21:54:57.511 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:54:57.683 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=239ms
+21:54:57.883 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=135ms
+21:54:58.200 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=263ms
+21:54:58.366 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=136ms
+21:54:58.615 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=169ms
+21:54:58.861 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=221ms
+21:54:59.290 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=351ms
+21:54:59.848 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=506ms
+21:54:59.851 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:55:00.051 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=111ms
+21:55:00.180 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=26ms
+21:55:00.542 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=302ms
+21:55:00.608 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:00.701 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=57ms
+21:55:00.916 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=164ms
+21:55:01.153 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=208ms
+21:55:01.401 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=161ms
+21:55:01.406 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:55:01.643 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=213ms
+21:55:01.898 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=250ms
+21:55:02.131 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=183ms
+21:55:02.604 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=466ms
+21:55:02.662 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=13ms
+21:55:02.883 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=151ms
+21:55:03.134 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=189ms
+21:55:03.393 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=254ms
+21:55:03.624 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:55:03.630 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=193ms
+21:55:03.882 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=229ms
+21:55:04.195 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=245ms
+21:55:04.388 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=142ms
+21:55:04.731 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=292ms
+21:55:04.879 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=136ms
+21:55:05.130 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=179ms
+21:55:05.411 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=265ms
+21:55:05.414 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:55:05.677 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=233ms
+21:55:05.878 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=134ms
+21:55:06.134 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=199ms
+21:55:06.372 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=223ms
+21:55:06.659 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=211ms
+21:55:07.276 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=533ms
+21:55:07.413 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=69ms
+21:55:07.523 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=73ms
+21:55:07.528 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:55:07.749 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=214ms
+21:55:08.136 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=383ms
+21:55:08.186 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=33ms
+21:55:08.408 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=168ms
+21:55:08.746 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=292ms
+21:55:09.072 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=324ms
+21:55:09.161 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=25ms
+21:55:09.409 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=169ms
+21:55:09.413 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:55:09.713 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=282ms
+21:55:09.898 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=144ms
+21:55:10.185 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=237ms
+21:55:10.401 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=158ms
+21:55:10.649 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=212ms
+21:55:10.888 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=237ms
+21:55:11.394 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=443ms
+21:55:11.400 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:11.403 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:55:11.634 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=193ms
+21:55:13.241 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=1587ms
+21:55:13.337 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=86ms
+21:55:13.554 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=112ms
+21:55:13.629 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:13.668 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=31ms
+21:55:13.712 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:13.747 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=10ms
+21:55:13.794 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:13.881 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=31ms
+21:55:14.133 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=201ms
+21:55:14.285 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:55:15.174 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=1028ms
+21:55:15.179 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:15.184 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:15.205 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:15.376 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=138ms
+21:55:15.676 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=226ms
+21:55:15.884 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=135ms
+21:55:16.123 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=184ms
+21:55:16.139 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:55:16.424 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=269ms
+21:55:17.013 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=562ms
+21:55:17.018 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:17.140 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=92ms
+21:55:17.475 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=231ms
+21:55:17.517 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:55:17.625 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=88ms
+21:55:18.044 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=399ms
+21:55:18.215 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=164ms
+21:55:18.438 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=193ms
+21:55:18.673 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=235ms
+21:55:19.206 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=472ms
+21:55:19.700 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=453ms
+21:55:19.784 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=44ms
+21:55:19.803 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:55:19.880 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=34ms
+21:55:19.940 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:20.950 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=998ms
+21:55:21.212 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=173ms
+21:55:21.246 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:21.285 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=35ms
+21:55:21.357 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=21ms
+21:55:21.411 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:21.644 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=198ms
+21:55:21.793 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:55:21.892 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=150ms
+21:55:22.386 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=451ms
+21:55:22.400 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:22.778 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=334ms
+21:55:23.058 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=203ms
+21:55:23.212 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=63ms
+21:55:23.459 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=221ms
+21:55:23.839 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=304ms
+21:55:23.842 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:55:23.997 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=56ms
+21:55:24.167 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=123ms
+21:55:25.116 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=876ms
+21:55:25.126 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:25.215 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=81ms
+21:55:25.785 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=543ms
+21:55:25.866 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=30ms
+21:55:25.868 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:25.870 [#c0c8] D/USAGE: usageMetadata alındı | {"promptTokenCount":50,"responseTokenCount":50,"totalTokenCount":100,"promptTokensDetails":[{"modality":"AUDIO","tokenCount":50}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":50}]}
+21:55:25.916 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000
+21:55:26.145 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=202ms
+21:55:26.409 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=165ms
+21:55:26.794 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=356ms
+21:55:26.904 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=65ms
+21:55:27.141 [#c0c8] D/LIVE: Dublaj ses paketi alındı | bayt=12000, ilkGecikme=195ms
+21:55:27.285 [#c0c8] I/SVC: Kullanıcı bildirimden/arayüzden durdurma istedi
+21:55:27.288 [#c0c8] I/LIVE: Gemini Live oturumu durduruldu
+21:55:27.401 [#c0c8] I/LIVE: WebSocket kapanıyor (main-4075) | kod=1000, neden=
+21:55:27.403 [#c0c8] D/LIVE: WebSocket kapandı (main-4075) | kod=1000, neden=
+21:55:27.536 [#c0c8] I/AUDIO: Ses motoru güvenli şekilde kapatıldı
+21:55:27.541 [#c0c8] I/SVC: DubbingService sıralı kapatma tamamlandı
+21:55:31.168 [#b634] I/SVC: DubbingService.startForeground çağrıldı (oturum=#b634)
+21:55:31.170 [#b634] I/LIVE: Gemini Live oturumu durduruldu
+21:55:31.186 [#b634] I/LIVE: Gemini Live oturumu başlatılıyor | model=gemini-3.8-live, echoTr=false
+21:55:31.247 [#b634] I/AUDIO: Ses motoru başlatıldı | giriş=48000Hz Stereo, çıkış=24000Hz Mono (USAGE_ALARM)
+21:55:31.447 [#b634] I/ROUTE: Orijinal sesi kısmadan önce 3 sn referans RMS ölçülüyor...
+21:55:31.691 [#b634] I/LIVE: WebSocket açıldı (main-1190), setup gönderiliyor | tier=0, bytes=561
+21:55:32.152 [#b634] I/LIVE: Kurulum tamamlandı (setupComplete), ses akışı başladı (main-1190)
+21:55:34.482 [#b634] I/ROUTE: STREAM_MUSIC kısıldı, 3 sn sonrası RMS doğrulanıyor | öncekiRms=0, eskiSes=4, yeniSes=2
+21:55:37.527 [#b634] I/ROUTE: Orijinal ses kısma doğrulandı | preRms=0, postRms=83
+21:56:24.790 [#b634] D/LIVE: Giriş transkripti alındı | lang=auto, krk=69
+21:56:27.188 [#b634] D/LIVE: Çıkış (Türkçe) transkripti alındı | krk=11
+21:56:27.208 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=17760, ilkGecikme=15000ms
+21:56:27.309 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=19200, ilkGecikme=62ms
+21:56:27.361 [#b634] D/LIVE: Çıkış (Türkçe) transkripti alındı | krk=9
+21:56:27.367 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=23040, ilkGecikme=22ms
+21:56:27.593 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=15360, ilkGecikme=159ms
+21:56:27.604 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=9600
+21:56:27.923 [#b634] D/LIVE: Çıkış (Türkçe) transkripti alındı | krk=23
+21:56:27.935 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=28800, ilkGecikme=293ms
+21:56:27.971 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=17280, ilkGecikme=21ms
+21:56:27.979 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=1920
+21:56:28.288 [#b634] D/LIVE: Çıkış (Türkçe) transkripti alındı | krk=11
+21:56:28.314 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=24960, ilkGecikme=263ms
+21:56:28.573 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=19200, ilkGecikme=218ms
+21:56:28.639 [#b634] D/LIVE: Çıkış (Türkçe) transkripti alındı | krk=11
+21:56:28.649 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=15360, ilkGecikme=10ms
+21:56:28.733 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=15360
+21:56:28.885 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=17280, ilkGecikme=143ms
+21:56:28.890 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=1920
+21:56:28.894 [#b634] D/LIVE: Sunucu konuşma turunu kesti (interrupted=true)
+21:56:28.937 [#b634] I/USAGE: Ham usageMetadata örneği (#1/5) | {"promptTokenCount":832,"responseTokenCount":124,"totalTokenCount":956,"promptTokensDetails":[{"modality":"TEXT","tokenCount":401},{"modality":"AUDIO","tokenCount":404}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":124}],"thoughtsTokenCount":120}
+21:56:31.269 [#b634] D/LIVE: Giriş transkripti alındı | lang=auto, krk=11
+21:56:31.275 [#b634] D/LIVE: Çıkış (Türkçe) transkripti alındı | krk=7
+21:56:31.287 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=2, ilkGecikme=2345ms
+21:56:31.418 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=19680, ilkGecikme=79ms
+21:56:31.677 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=15360, ilkGecikme=239ms
+21:56:31.819 [#b634] D/LIVE: Çıkış (Türkçe) transkripti alındı | krk=11
+21:56:31.829 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=30720, ilkGecikme=92ms
+21:56:31.864 [#b634] D/LIVE: Dublaj ses paketi alındı | bayt=7680, ilkGecikme=13ms
+21:56:31.871 [#b634] D/LIVE: Sunucu konuşma turunu kesti (interrupted=true)
+21:56:31.914 [#b634] I/USAGE: Ham usageMetadata örneği (#2/5) | {"promptTokenCount":1020,"responseTokenCount":44,"totalTokenCount":1064,"promptTokensDetails":[{"modality":"TEXT","tokenCount":421},{"modality":"AUDIO","tokenCount":552}],"responseTokensDetails":[{"modality":"AUDIO","tokenCount":44}],"thoughtsTokenCount":99}
+21:57:29.482 [#b634] I/SVC: Kullanıcı bildirimden/arayüzden durdurma istedi
+21:57:29.485 [#b634] I/LIVE: Gemini Live oturumu durduruldu
+21:57:29.760 [#b634] I/AUDIO: Ses motoru güvenli şekilde kapatıldı
+21:57:29.777 [#b634] I/SVC: DubbingService sıralı kapatma tamamlandı
+21:57:30.050 [#b634] I/LIVE: WebSocket kapanıyor (main-1190) | kod=1000, neden=
+21:57:30.051 [#b634] D/LIVE: WebSocket kapandı (main-1190) | kod=1000, neden=
+21:57:34.121 [#6620] I/SVC: DubbingService.startForeground çağrıldı (oturum=#6620)
+21:57:34.124 [#6620] I/LIVE: Gemini Live oturumu durduruldu
+21:57:34.151 [#6620] I/LIVE: Gemini Live oturumu başlatılıyor | model=gemini-3.8-live, echoTr=false
+21:57:34.226 [#6620] I/AUDIO: Ses motoru başlatıldı | giriş=48000Hz Stereo, çıkış=24000Hz Mono (USAGE_ALARM)
+21:57:34.376 [#6620] I/ROUTE: Orijinal sesi kısmadan önce 3 sn referans RMS ölçülüyor...
+21:57:35.456 [#6620] I/LIVE: WebSocket açıldı (main-4162), setup gönderiliyor | tier=0, bytes=561
+21:57:35.846 [#6620] I/LIVE: Kurulum tamamlandı (setupComplete), ses akışı başladı (main-4162)
+21:57:37.426 [#6620] I/ROUTE: STREAM_MUSIC kısıldı, 3 sn sonrası RMS doğrulanıyor | öncekiRms=3660, eskiSes=4, yeniSes=2
+21:57:40.456 [#6620] I/ROUTE: Orijinal ses kısma doğrulandı | preRms=3660, postRms=3876
+21:58:52.848 [#6620] I/SVC: Kullanıcı bildirimden/arayüzden durdurma istedi
+21:58:52.850 [#6620] I/LIVE: Gemini Live oturumu durduruldu
+21:58:52.955 [#6620] I/LIVE: WebSocket kapanıyor (main-4162) | kod=1000, neden=
+21:58:52.957 [#6620] D/LIVE: WebSocket kapandı (main-4162) | kod=1000, neden=
+21:58:53.286 [#6620] I/AUDIO: Ses motoru güvenli şekilde kapatıldı
+21:58:53.292 [#6620] I/SVC: DubbingService sıralı kapatma tamamlandı
+21:58:58.384 [#d33e] I/SVC: DubbingService.startForeground çağrıldı (oturum=#d33e)
+21:58:58.386 [#d33e] I/LIVE: Gemini Live oturumu durduruldu
+21:58:58.398 [#d33e] I/LIVE: Gemini Live oturumu başlatılıyor | model=gemini-3.8-live-extended-thinking, echoTr=false
+21:58:58.469 [#d33e] I/AUDIO: Ses motoru başlatıldı | giriş=48000Hz Stereo, çıkış=24000Hz Mono (USAGE_ALARM)
+21:58:58.595 [#d33e] I/ROUTE: Orijinal sesi kısmadan önce 3 sn referans RMS ölçülüyor...
+21:59:00.586 [#d33e] I/LIVE: WebSocket açıldı (main-8401), setup gönderiliyor | tier=0, bytes=579
+21:59:00.818 [#d33e] I/LIVE: WebSocket kapanıyor (main-8401) | kod=1007, neden=Thinking level must be specified for this model.
+21:59:00.821 [#d33e] D/LIVE: WebSocket kapandı (main-8401) | kod=1007, neden=Thinking level must be specified for this model.
+21:59:00.820 [#d33e] W/LIVE: 1007 kurulum hatası alındı, alternatif kurulum şeması (tier=1) ile tekrar deneniyor
+21:59:01.650 [#d33e] I/ROUTE: STREAM_MUSIC kısıldı, 3 sn sonrası RMS doğrulanıyor | öncekiRms=1239, eskiSes=4, yeniSes=2
+21:59:02.147 [#d33e] I/LIVE: WebSocket açıldı (main-826), setup gönderiliyor | tier=1, bytes=579
+21:59:02.369 [#d33e] I/LIVE: WebSocket kapanıyor (main-826) | kod=1007, neden=Thinking level must be specified for this model.
+21:59:02.391 [#d33e] D/LIVE: WebSocket kapandı (main-826) | kod=1007, neden=Thinking level must be specified for this model.
+21:59:02.393 [#d33e] W/LIVE: 1007 kurulum hatası alındı, alternatif kurulum şeması (tier=2) ile tekrar deneniyor
+21:59:02.701 [#d33e] I/LIVE: WebSocket açıldı (main-2396), setup gönderiliyor | tier=2, bytes=480
+21:59:03.086 [#d33e] I/LIVE: WebSocket kapanıyor (main-2396) | kod=1007, neden=Thinking level must be specified for this model.
+21:59:03.088 [#d33e] E/LIVE: Sunucu kurulumu reddetti (1007). Model testini çalıştır. | Sunucu kurulumu reddetti (1007) (1007) — Neden: Model kurulum parametreleri veya hedef model yapılandırması sunucu tarafından kabul edilmedi. Thinking level must be specified for this model. | Çözüm: Sunucu kurulumu reddetti (1007). Model testini çalıştır.
+21:59:03.089 [#d33e] D/LIVE: WebSocket kapandı (main-2396) | kod=1007, neden=Thinking level must be specified for this model.
+21:59:04.678 [#d33e] I/ROUTE: Orijinal ses kısma doğrulandı | preRms=1239, postRms=993

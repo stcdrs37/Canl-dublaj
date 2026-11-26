@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Dubbing</string>
+    <string name="notif_channel_name">Screen Dubbing Canlı Dublaj</string>
+    <string name="notif_channel_desc">Canlı AI ekran dublajı ve yüzen altyazı bildirimleri</string>
+    <string name="notif_title_running">Screen Dubbing çalışıyor</string>
+    <string name="notif_action_pause">Duraklat</string>
+    <string name="notif_action_resume">Devam</string>
+    <string name="notif_action_stop">Durdur</string>
+</resources>

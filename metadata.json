@@ -1,0 +1,6 @@
+{
+  "name": "Screen Dubbing",
+  "description": "Ekran paylaşımı ve Gemini Live API ile canlı sistem sesi dublajı, otomatik %10 arka plan kısma ve Bluetooth dublaj yönlendirmesi sunan Screen Dubbing uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
